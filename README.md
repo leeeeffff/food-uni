@@ -1,2 +1,2 @@
 # food-uni
-rating restaurants near uni based on me 
+rating restaurants near uni
