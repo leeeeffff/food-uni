@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.about {
+    width: 100%;
+    height: 86.5vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.backgroundVideoContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensures the video doesn't overflow */
+}
+
+.backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: inset(0% 0 15% 0); /* Adjust these values to crop top and bottom */
+}
+
+.aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: -60px;
+    z-index: 1; /* Ensure content is above the video */
+    position: relative;
+}
+
+.aboutBottom p {
+    width: 1200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutBottom h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+    font-family: 'Poppins', sans-serif;
+}
