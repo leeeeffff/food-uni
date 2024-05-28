@@ -34,6 +34,7 @@ const Restaurants = () => {
     return (
         <div className="restaurants">
             <h1 className="RestaurantsTitle">Restaurants</h1>
+            <h5 className= "description">you can press the address to checkout the location, and you can press the name of the restaurant to checkout their webpage</h5>
             {Object.keys(categorizedRestaurants).map((category, index) => (
                 <div key={index} className="categorySection">
                     <h2 className="categoryTitle">{category}</h2>
