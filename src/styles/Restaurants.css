@@ -44,6 +44,10 @@ body {
     bottom: 0;
 }
 
+.description {
+text-align: center;
+}
+
 .restaurantsList {
     display: flex;
     flex-wrap: wrap;
